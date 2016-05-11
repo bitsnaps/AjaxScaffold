@@ -15,18 +15,23 @@ Features:
 	grails.plugin.location.'kickstart-with-bootstrap' = "../KickstartWithBootstrap3"
 </pre>
 - add to Config.groovy desired date format for binding:
+<pre>
 	grails.databinding.dateFormats = [
 		'dd/MM/yyyy', 'yyyy-MM-dd HH:mm:ss.S', "yyyy-MM-dd'T'hh:mm:ss'Z'"
 	]
-
+</pre>
 - set default date format in your /i18n/messages.properties :
+<pre>
 default.date.format= dd/MM/yyyy 
-
+</pre>
 -then kickstart with bootstrap (overwrite if you should):
+<pre>
 	grails kickstart
+</pre>
 
 # Quick example:
 - create a domain 'grails create-domain-class Person' and some attributes:
+<pre>
 	class Person(){
 		Long id
 		String firstName
@@ -35,7 +40,9 @@ default.date.format= dd/MM/yyyy
 		Date birthDate
 	  static constraints = { }	
 	}
+</pre>
 - create a controller 'grails create-controller Person' and enable scaffold:
+<pre>
 	class PersonController {
 		static scaffold = Person
 		//def index() { }
@@ -44,6 +51,6 @@ default.date.format= dd/MM/yyyy
 			setSearchField('firstName')
 		} 
 	}
-
+</pre>
 # enjoy!
 
