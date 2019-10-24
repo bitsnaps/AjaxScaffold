@@ -1,4 +1,4 @@
-# AjaxScaffold
+# KickStartWithBootstrap3
 Grails Plugin adding Ajax scaffold using Bootstrap3 (forked from kickstartWithBootstrap)
 
 Features:
@@ -52,5 +52,5 @@ default.date.format= dd/MM/yyyy
 		} 
 	}
 </pre>
-# enjoy!
+
 
