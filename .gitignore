@@ -1,0 +1,16 @@
+/eclipseclasses/
+Thumbs.db
+.DS_Store
+.gradle
+build/
+.idea
+*.iml
+*.ipr
+*.iws
+*.7z
+*.sql
+*.lnk
+.project
+.classpath
+/gradle
+/target

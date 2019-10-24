@@ -2,7 +2,7 @@
 Grails Plugin adding Ajax scaffold using Bootstrap3 (forked from kickstartWithBootstrap)
 
 Features:
-- Full compatible grails 2.4.*
+- Fully compatible grails 2.5.6
 - Replace old ressource plugin by asset-pipeline
 - Add bootstrap-select (by Casey Holzer) for select widget (many-to-one, inList...)
 - Use jQuery-Bootgrid (by Rafael Staib) with full ajax support in the default index scaffolding
